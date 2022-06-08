@@ -8,7 +8,7 @@ function Home(props) {
   const navigate = useNavigate();
 
   const fetchLoanData = async () => {
-    const resp = await fetch("/loan", {
+    const resp = await fetch("https://server-app-make.herokuapp.com/loan", {
       method: "GET",
     });
 
