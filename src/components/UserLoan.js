@@ -12,7 +12,7 @@ function UserLoan() {
 
   const fetchUserData = async () => {
     try {
-      const resp = await fetch("/fetchById", {
+      const resp = await fetch("https://server-app-make.herokuapp.com/fetchById", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
