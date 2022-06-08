@@ -1,0 +1,5 @@
+node_modules
+.env
+
+  DATABASE_URI:
+      mongodb+srv://db:6O3rHBpJYYLnGjbV@database.l2fnk.mongodb.net/loan?retryWrites=true&w=majority
