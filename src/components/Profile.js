@@ -43,7 +43,7 @@ function Profile(props) {
 
       // send to server
 
-      const resp = await fetch("/loan_details", {
+      const resp = await fetch("https://server-app-make.herokuapp.com/loan_details", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
